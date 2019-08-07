@@ -1,0 +1,11 @@
+{
+    "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": ".\\src\\dist\\packages\\wrappy-service",
+    "target": "es6",
+    "rootDir": "."
+  },
+    "include": [
+        "./src/**/*"
+    ]
+}
